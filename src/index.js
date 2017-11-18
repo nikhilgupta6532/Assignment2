@@ -11,7 +11,6 @@ import PostsNew from './components/posts_new';
 import PostsComment from './components/posts_comment';
 import FindAuthor from './components/find_author';
 import PostShow from './components/post_show';
-import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
