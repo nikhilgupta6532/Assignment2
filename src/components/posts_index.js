@@ -33,6 +33,11 @@ class PostsIndex extends Component {
             Add a Post
           </Link>
         </div>
+        <div>
+          <Link to="/author" className="btn btn-primary">
+            Find Author
+          </Link>
+        </div>
         <ul className="list-group">{this.renderPosts()}</ul>
       </div>
     );
