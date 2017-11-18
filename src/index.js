@@ -9,6 +9,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ReduxPromise from 'redux-promise';
 import PostsNew from './components/posts_new';
 import PostsComment from './components/posts_comment';
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
