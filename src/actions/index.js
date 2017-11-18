@@ -4,7 +4,7 @@ export const FETCH_POSTS = 'fetch_posts';
 export const CREATE_POSTS = 'create_posts';
 export const ADD_COMMENT = 'add_comment';
 
-const ROOT_URL = 'http://assignment-server.herokuapp.com/posts';
+const ROOT_URL = 'https://assignment-server.herokuapp.com/posts';
 //const API_KEY = '?_embed=nikhil1234';
 
 export function fetchPosts() {
